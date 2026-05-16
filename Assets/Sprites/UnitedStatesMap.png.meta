@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: 2fb7e3dd02eaddf4a962d08f03e46c62
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8604291488486848344
+    second: UnitedStatesMap_0
+  - first:
+      213: -6493387000478213321
+    second: UnitedStatesMap_1
+  - first:
+      213: 561077022194054326
+    second: UnitedStatesMap_2
+  - first:
+      213: 2499788307932703073
+    second: UnitedStatesMap_3
+  - first:
+      213: 3433653136599998539
+    second: UnitedStatesMap_4
+  - first:
+      213: -1213023894729995228
+    second: UnitedStatesMap_5
+  - first:
+      213: -4635967332294074365
+    second: UnitedStatesMap_6
+  - first:
+      213: 6583370503303296588
+    second: UnitedStatesMap_7
+  - first:
+      213: 6499531595113767377
+    second: UnitedStatesMap_8
+  - first:
+      213: -7202927637327535484
+    second: UnitedStatesMap_9
+  - first:
+      213: 1501702523860541029
+    second: UnitedStatesMap_10
+  - first:
+      213: 3779682128379903602
+    second: UnitedStatesMap_11
+  - first:
+      213: -2305922300670506324
+    second: UnitedStatesMap_12
+  - first:
+      213: -442829591258068703
+    second: UnitedStatesMap_13
+  - first:
+      213: -3782920056799328652
+    second: UnitedStatesMap_14
+  - first:
+      213: -7312167071584429533
+    second: UnitedStatesMap_15
+  - first:
+      213: 8669806776355214113
+    second: UnitedStatesMap_16
+  - first:
+      213: 4501235400820227167
+    second: UnitedStatesMap_17
+  - first:
+      213: 4291880094806634590
+    second: UnitedStatesMap_18
+  - first:
+      213: 8098121817884618801
+    second: UnitedStatesMap_19
+  - first:
+      213: 3602616628878820695
+    second: UnitedStatesMap_20
+  - first:
+      213: -1027071749430946231
+    second: UnitedStatesMap_21
+  - first:
+      213: 3466664000441345360
+    second: UnitedStatesMap_22
+  - first:
+      213: -5651208822102064858
+    second: UnitedStatesMap_23
+  - first:
+      213: -5109791996382358
+    second: UnitedStatesMap_24
+  - first:
+      213: -2037366687561293202
+    second: UnitedStatesMap_25
+  - first:
+      213: -1493865319072924323
+    second: UnitedStatesMap_26
+  - first:
+      213: 3842009494196885734
+    second: UnitedStatesMap_27
+  - first:
+      213: 1995763361275543238
+    second: UnitedStatesMap_28
+  - first:
+      213: -3702192974749402305
+    second: UnitedStatesMap_29
+  - first:
+      213: -7611527066923252812
+    second: UnitedStatesMap_30
+  - first:
+      213: 8096359224144640564
+    second: UnitedStatesMap_31
+  - first:
+      213: -5220564032777729078
+    second: UnitedStatesMap_32
+  - first:
+      213: 2233433373490714257
+    second: UnitedStatesMap_33
+  - first:
+      213: 4909787666214291317
+    second: UnitedStatesMap_34
+  - first:
+      213: -4506327264461262092
+    second: UnitedStatesMap_35
+  - first:
+      213: -5855912383514672400
+    second: UnitedStatesMap_36
+  - first:
+      213: 4273771529612538749
+    second: UnitedStatesMap_37
+  - first:
+      213: 3917925181758253035
+    second: UnitedStatesMap_38
+  - first:
+      213: 2045835702381100776
+    second: UnitedStatesMap_39
+  - first:
+      213: -8387244716023911738
+    second: UnitedStatesMap_40
+  - first:
+      213: 8008888167129944683
+    second: UnitedStatesMap_41
+  - first:
+      213: -8214242510932525692
+    second: UnitedStatesMap_42
+  - first:
+      213: 6343780119526981524
+    second: UnitedStatesMap_43
+  - first:
+      213: 2075786908425969919
+    second: UnitedStatesMap_44
+  - first:
+      213: 4478193163210695311
+    second: UnitedStatesMap_45
+  - first:
+      213: -5554808026760093726
+    second: UnitedStatesMap_46
+  - first:
+      213: -6228685566936857503
+    second: UnitedStatesMap_47
+  - first:
+      213: -2179523541404242908
+    second: UnitedStatesMap_48
+  - first:
+      213: 6086817301701906279
+    second: UnitedStatesMap_49
+  - first:
+      213: 8504742399839054600
+    second: UnitedStatesMap_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UnitedStatesMap_0
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2700
+        width: 940
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a803dc8a7a679880800000000000000
+      internalID: -8604291488486848344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 3274
+        width: 801
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b5b5f2dead2e5a0800000000000000
+      internalID: -6493387000478213321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_2
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 2557
+        width: 699
+        height: 1121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4b287349859c700800000000000000
+      internalID: 561077022194054326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_3
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 2883
+        width: 1174
+        height: 773
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169e00cb83801b220800000000000000
+      internalID: 2499788307932703073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_4
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 2984
+        width: 761
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40e2f0e559c6af20800000000000000
+      internalID: 3433653136599998539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_5
+      rect:
+        serializedVersion: 2
+        x: 3091
+        y: 2606
+        width: 733
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42cce82d1397a2fe0800000000000000
+      internalID: -1213023894729995228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_6
+      rect:
+        serializedVersion: 2
+        x: 5787
+        y: 2860
+        width: 418
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300eb40164cb9afb0800000000000000
+      internalID: -4635967332294074365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1263
+        width: 932
+        height: 1638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c467d22b794dc5b50800000000000000
+      internalID: 6583370503303296588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_8
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 2305
+        width: 823
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d12f2dbc89f23a50800000000000000
+      internalID: 6499531595113767377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_9
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 2469
+        width: 815
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482af320a7f0a0c90800000000000000
+      internalID: -7202927637327535484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_10
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 2484
+        width: 599
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ed3053d7e17d410800000000000000
+      internalID: 1501702523860541029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_11
+      rect:
+        serializedVersion: 2
+        x: 3798
+        y: 2866
+        width: 627
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ef9f1ced0247430800000000000000
+      internalID: 3779682128379903602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_12
+      rect:
+        serializedVersion: 2
+        x: 4197
+        y: 2396
+        width: 471
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa02e482e7bfffd0800000000000000
+      internalID: -2305922300670506324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_13
+      rect:
+        serializedVersion: 2
+        x: 4980
+        y: 2487
+        width: 680
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129080d35d0cad9f0800000000000000
+      internalID: -442829591258068703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_14
+      rect:
+        serializedVersion: 2
+        x: 5552
+        y: 2777
+        width: 180
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47686c8404e508bc0800000000000000
+      internalID: -3782920056799328652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_15
+      rect:
+        serializedVersion: 2
+        x: 5733
+        y: 2796
+        width: 161
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ad6e73ac6f58a90800000000000000
+      internalID: -7312167071584429533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_16
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1636
+        width: 756
+        height: 1138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1235de71457515870800000000000000
+      internalID: 8669806776355214113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_17
+      rect:
+        serializedVersion: 2
+        x: 5645
+        y: 2644
+        width: 403
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c7d4c9fb9977e30800000000000000
+      internalID: 4501235400820227167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_18
+      rect:
+        serializedVersion: 2
+        x: 5649
+        y: 2524
+        width: 195
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50f485f432df8b30800000000000000
+      internalID: 4291880094806634590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_19
+      rect:
+        serializedVersion: 2
+        x: 5840
+        y: 2608
+        width: 75
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1307ade33ee426070800000000000000
+      internalID: 8098121817884618801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_20
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1792
+        width: 659
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755cc3a8cb01ff130800000000000000
+      internalID: 3602616628878820695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_21
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 2102
+        width: 955
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94654508fab1fb1f0800000000000000
+      internalID: -1027071749430946231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_22
+      rect:
+        serializedVersion: 2
+        x: 3141
+        y: 2138
+        width: 670
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055e0fd8a801c1030800000000000000
+      internalID: 3466664000441345360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_23
+      rect:
+        serializedVersion: 2
+        x: 3718
+        y: 1693
+        width: 436
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6218d07848fd291b0800000000000000
+      internalID: -5651208822102064858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_24
+      rect:
+        serializedVersion: 2
+        x: 4433
+        y: 1953
+        width: 489
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63fd27dba8ddeff0800000000000000
+      internalID: -5109791996382358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_25
+      rect:
+        serializedVersion: 2
+        x: 4895
+        y: 2182
+        width: 638
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62e1b6cac1d9b3e0800000000000000
+      internalID: -2037366687561293202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_26
+      rect:
+        serializedVersion: 2
+        x: 5512
+        y: 2249
+        width: 131
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5df16a3869b44be0800000000000000
+      internalID: -1493865319072924323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_27
+      rect:
+        serializedVersion: 2
+        x: 5678
+        y: 2445
+        width: 165
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e89845774f815530800000000000000
+      internalID: 3842009494196885734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_28
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1694
+        width: 849
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce719cf33062bb10800000000000000
+      internalID: 1995763361275543238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_29
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 1660
+        width: 878
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b7d12ca1b2f9cc0800000000000000
+      internalID: -3702192974749402305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_30
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 1587
+        width: 736
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3c4c1d57c6e5690800000000000000
+      internalID: -7611527066923252812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_31
+      rect:
+        serializedVersion: 2
+        x: 4120
+        y: 1797
+        width: 339
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a391961db0c5070800000000000000
+      internalID: 8096359224144640564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_32
+      rect:
+        serializedVersion: 2
+        x: 4652
+        y: 1663
+        width: 900
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb4a130ca4dc87b0800000000000000
+      internalID: -5220564032777729078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_33
+      rect:
+        serializedVersion: 2
+        x: 4782
+        y: 1854
+        width: 468
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1969a68e1dfbefe10800000000000000
+      internalID: 2233433373490714257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_34
+      rect:
+        serializedVersion: 2
+        x: 5072
+        y: 1977
+        width: 560
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5770c478ed1132440800000000000000
+      internalID: 4909787666214291317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_35
+      rect:
+        serializedVersion: 2
+        x: 5514
+        y: 2053
+        width: 122
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2f0208a3f4671c0800000000000000
+      internalID: -4506327264461262092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_36
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 963
+        width: 794
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f20cc096be9bbea0800000000000000
+      internalID: -5855912383514672400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_37
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1777
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73bbb1109c7f4b30800000000000000
+      internalID: 4273771529612538749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_38
+      rect:
+        serializedVersion: 2
+        x: 3974
+        y: 1606
+        width: 817
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7224bd1344f5630800000000000000
+      internalID: 3917925181758253035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_39
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 1348
+        width: 1023
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eebc356bb4446c10800000000000000
+      internalID: 2045835702381100776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_40
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 951
+        width: 804
+        height: 823
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca6f194e558a9b80800000000000000
+      internalID: -8387244716023911738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_41
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 29
+        width: 1626
+        height: 1583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b621c97ea59452f60800000000000000
+      internalID: 8008888167129944683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_42
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1155
+        width: 1014
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d34fc05f5210e80800000000000000
+      internalID: -8214242510932525692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_43
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 1071
+        width: 600
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f379d6862a90850800000000000000
+      internalID: 6343780119526981524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_44
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 1374
+        width: 960
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0e22af13daecc10800000000000000
+      internalID: 2075786908425969919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_45
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 692
+        width: 408
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82a1c894fcb52e30800000000000000
+      internalID: 4478193163210695311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_46
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 785
+        width: 608
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2efd971c78b59e2b0800000000000000
+      internalID: -5554808026760093726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_47
+      rect:
+        serializedVersion: 2
+        x: 4753
+        y: 1036
+        width: 551
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16440255a734f89a0800000000000000
+      internalID: -6228685566936857503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_48
+      rect:
+        serializedVersion: 2
+        x: 3397
+        y: 501
+        width: 594
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42caffef2e6c0c1e0800000000000000
+      internalID: -2179523541404242908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_49
+      rect:
+        serializedVersion: 2
+        x: 3745
+        y: 668
+        width: 374
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fc4a82618b87450800000000000000
+      internalID: 6086817301701906279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitedStatesMap_50
+      rect:
+        serializedVersion: 2
+        x: 4241
+        y: 1
+        width: 1009
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b2c90172ae60670800000000000000
+      internalID: 8504742399839054600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UnitedStatesMap_0: -8604291488486848344
+      UnitedStatesMap_1: -6493387000478213321
+      UnitedStatesMap_10: 1501702523860541029
+      UnitedStatesMap_11: 3779682128379903602
+      UnitedStatesMap_12: -2305922300670506324
+      UnitedStatesMap_13: -442829591258068703
+      UnitedStatesMap_14: -3782920056799328652
+      UnitedStatesMap_15: -7312167071584429533
+      UnitedStatesMap_16: 8669806776355214113
+      UnitedStatesMap_17: 4501235400820227167
+      UnitedStatesMap_18: 4291880094806634590
+      UnitedStatesMap_19: 8098121817884618801
+      UnitedStatesMap_2: 561077022194054326
+      UnitedStatesMap_20: 3602616628878820695
+      UnitedStatesMap_21: -1027071749430946231
+      UnitedStatesMap_22: 3466664000441345360
+      UnitedStatesMap_23: -5651208822102064858
+      UnitedStatesMap_24: -5109791996382358
+      UnitedStatesMap_25: -2037366687561293202
+      UnitedStatesMap_26: -1493865319072924323
+      UnitedStatesMap_27: 3842009494196885734
+      UnitedStatesMap_28: 1995763361275543238
+      UnitedStatesMap_29: -3702192974749402305
+      UnitedStatesMap_3: 2499788307932703073
+      UnitedStatesMap_30: -7611527066923252812
+      UnitedStatesMap_31: 8096359224144640564
+      UnitedStatesMap_32: -5220564032777729078
+      UnitedStatesMap_33: 2233433373490714257
+      UnitedStatesMap_34: 4909787666214291317
+      UnitedStatesMap_35: -4506327264461262092
+      UnitedStatesMap_36: -5855912383514672400
+      UnitedStatesMap_37: 4273771529612538749
+      UnitedStatesMap_38: 3917925181758253035
+      UnitedStatesMap_39: 2045835702381100776
+      UnitedStatesMap_4: 3433653136599998539
+      UnitedStatesMap_40: -8387244716023911738
+      UnitedStatesMap_41: 8008888167129944683
+      UnitedStatesMap_42: -8214242510932525692
+      UnitedStatesMap_43: 6343780119526981524
+      UnitedStatesMap_44: 2075786908425969919
+      UnitedStatesMap_45: 4478193163210695311
+      UnitedStatesMap_46: -5554808026760093726
+      UnitedStatesMap_47: -6228685566936857503
+      UnitedStatesMap_48: -2179523541404242908
+      UnitedStatesMap_49: 6086817301701906279
+      UnitedStatesMap_5: -1213023894729995228
+      UnitedStatesMap_50: 8504742399839054600
+      UnitedStatesMap_6: -4635967332294074365
+      UnitedStatesMap_7: 6583370503303296588
+      UnitedStatesMap_8: 6499531595113767377
+      UnitedStatesMap_9: -7202927637327535484
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
