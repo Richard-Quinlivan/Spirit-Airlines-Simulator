@@ -6,6 +6,7 @@ public class LevelDefinition : MonoBehaviour
     [SerializeField]
     private List<PassengerInfo> _passengerInfo = new();
 
+    [SerializeField]
     private List<PassengerFlightData> _flightData = new();
 
 
