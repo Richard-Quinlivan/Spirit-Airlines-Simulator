@@ -10,7 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0b9627c5fdb1d2e488b4d69d512bb62c, type: 3}
-  m_Name: PassengerFlightData
-  m_EditorClassIdentifier: Assembly-CSharp::PassengerFlightData
+  m_Name: TestTripData
+  m_EditorClassIdentifier: Assembly-CSharp::TripData
   Start: 0
-  Destination: 0
+  Destination: 3
+  ArriveAtTime:
+    Hours: 8
+    Minutes: 30
+  PassengerData: {fileID: 11400000, guid: 40497bad4b6458b4dad2ed7aea3cc55a, type: 2}

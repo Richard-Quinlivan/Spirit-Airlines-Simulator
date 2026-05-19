@@ -1,7 +1,8 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "FlightInfo", menuName = "Scriptable Objects/FlightInfo")]
-public class FlightInfo : ScriptableObject
+[CreateAssetMenu(fileName = "FlightData", menuName = "Scriptable Objects/FlightData" +
+    "")]
+public class FlightData : ScriptableObject
 {
     public int ID;
 
@@ -11,7 +12,7 @@ public class FlightInfo : ScriptableObject
     public TimeData StartArriveTime;
     public TimeData DestinationArriveTime;
 
-    public int[] AvailableSeats;
+    public int[] Seats;
 
     public float SpeedMultiplier = 1.0f;
 

@@ -50,4 +50,61 @@ public class TimeData
         minutes %= 60;
         return Get12HourString(hours, minutes);
     }
+
+    public static int TimeToMinutes(TimeData timeData)
+    {
+        return timeData.Hours * 60 + timeData.Minutes;
+    }
+
+
+
+
+
+
+
+
+    //might not need any below
+    public override bool Equals(Object o)
+    {
+        if (o is TimeData timeData)
+        {
+            return this == timeData;
+        }
+        return false;
+    }
+
+    public override int GetHashCode()
+    {
+        return TimeToMinutes(this).GetHashCode();
+    }
+
+    public static bool operator ==(TimeData left, TimeData right)
+    {
+        return left.Hours == right.Hours && left.Minutes == right.Minutes;
+    }
+
+    public static bool operator !=(TimeData left, TimeData right)
+    {
+        return !(left == right);
+    }
+
+    public static bool operator <(TimeData left, TimeData right)
+    {
+        return TimeToMinutes(left) < TimeToMinutes(right);
+    }
+
+    public static bool operator >(TimeData left, TimeData right)
+    {
+        return TimeToMinutes(left) > TimeToMinutes(right);
+    }
+
+    public static bool operator <=(TimeData left, TimeData right)
+    {
+        return !(left > right);
+    }
+
+    public static bool operator >=(TimeData left, TimeData right)
+    {
+        return !(left < right);
+    }
 }
