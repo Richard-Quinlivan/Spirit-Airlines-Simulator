@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -9,45 +10,56 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private PassengerData[] _passengers;
 
-    private GameClock _gameClock;
+    private GameClock _clock;
+    private PassengerList _passengerList;
 
     public LevelData CurrentLevel => Levels[_currentLevelIndex];
     private int _currentLevelIndex;
 
 
-    private FlightData[] _flights;
-    private TripData[] _trips;
+    private List<FlightData> _flights;
+    private List<TripData> _trips;
 
     private void Awake()
     {
-        _gameClock = FindAnyObjectByType<GameClock>();
+        _clock = FindAnyObjectByType<GameClock>();
+        _passengerList = FindAnyObjectByType<PassengerList>();
 
-        _gameClock.OnTimeUpdated += CheckForNewPassengers;
+        _clock.OnTimeUpdated += CheckForNewPassengers;
         LoadLevel(0);
     }
 
     private void OnDestroy()
     {
-        _gameClock.OnTimeUpdated -= CheckForNewPassengers;        
+        if (_clock != null)
+        {
+            _clock.OnTimeUpdated -= CheckForNewPassengers;
+        }
     }
 
     private void LoadLevel(int index)
     {
         _currentLevelIndex = index;
-        //needs to be deep copy
-        _flights = CurrentLevel.Flights.ToArray();
-        _trips = CurrentLevel.Trips.ToArray();
+        _flights = CurrentLevel.Flights.ToList();
+        _trips = CurrentLevel.Trips.ToList();
     }
 
     private void CheckForNewPassengers(int time)
     {
+        List<TripData> toDelete = new();
         foreach (TripData tripData in _trips)
         {
             if (TimeData.TimeToMinutes(tripData.ArriveAtTime) <= time)
             {
                 PassengerData passenger = _passengers[tripData.PassengerData.Index];
                 Debug.Log($"{passenger.Name} Needs a flight from {tripData.Start} to {tripData.Destination}");
+                _passengerList.AddPassenger(passenger);
+                toDelete.Add(tripData);
             }
+        }
+        foreach (TripData tripData in toDelete)
+        {
+            _trips.Remove(tripData);
         }
     }
 }

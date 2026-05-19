@@ -6,6 +6,23 @@ public class TimeData
     public int Hours;
     public int Minutes;
 
+    public TimeData(int hours, int minutes)
+    {
+        Hours = hours;
+        Minutes = minutes;
+    }
+
+    public void AddTime(int hours, int minutes)
+    {
+        Hours += hours;
+        Minutes += minutes;
+        while (Minutes >= 60)
+        {
+            Minutes -= 60;
+            ++Hours;
+        }
+    }
+
     public string Get12HourString()
     {
         return Get12HourString(Hours, Minutes);
@@ -56,7 +73,10 @@ public class TimeData
         return timeData.Hours * 60 + timeData.Minutes;
     }
 
-
+    public string GetTimeInHours()
+    {
+        return (Hours + (Minutes / 60f)).ToString();
+    }
 
 
 
