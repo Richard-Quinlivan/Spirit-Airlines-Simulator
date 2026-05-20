@@ -31,7 +31,8 @@ public class TimeData
     public static string Get12HourString(int hours, int minutes)
     {
         (string, string) hoursValues = Convert24HourTo12Hour(hours);
-        return $"{hoursValues.Item1}:{minutes} {hoursValues.Item2}";
+        string minutesString = minutes == 0 ? "00" : minutes.ToString();
+        return $"{hoursValues.Item1}:{minutesString} {hoursValues.Item2}";
     }
 
     /// <summary>

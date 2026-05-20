@@ -1,16 +1,15 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "FlightData", menuName = "Scriptable Objects/FlightData" +
-    "")]
+[CreateAssetMenu(fileName = "FlightData", menuName = "Scriptable Objects/FlightData")]
 public class FlightData : ScriptableObject
 {
     public int ID;
 
-    public Airport Start;
-    public Airport Destination;
+    public Airport DepartureCity;
+    public Airport ArrivalCity;
 
-    public TimeData StartArriveTime;
-    public TimeData DestinationArriveTime;
+    public TimeData DepartureTime;
+    public TimeData ArrivalTime;
 
     public int[] Seats;
 

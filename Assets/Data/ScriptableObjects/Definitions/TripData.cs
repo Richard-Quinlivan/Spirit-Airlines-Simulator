@@ -6,7 +6,7 @@ public class TripData : ScriptableObject
     public Airport Start;
     public Airport Destination;
 
-    public TimeData ArriveAtTime;
+    public TimeData StartTime;
 
     public PassengerData PassengerData;
 }

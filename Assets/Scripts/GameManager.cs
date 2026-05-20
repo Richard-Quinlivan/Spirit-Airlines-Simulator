@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
 
     private GameClock _clock;
     private PassengerList _passengerList;
+    private FlightList _flightList;
 
     public LevelData CurrentLevel => Levels[_currentLevelIndex];
     private int _currentLevelIndex;
@@ -24,6 +25,7 @@ public class GameManager : MonoBehaviour
     {
         _clock = FindAnyObjectByType<GameClock>();
         _passengerList = FindAnyObjectByType<PassengerList>();
+        _flightList = FindAnyObjectByType<FlightList>();
 
         _clock.OnTimeUpdated += CheckForNewPassengers;
         LoadLevel(0);
@@ -42,6 +44,8 @@ public class GameManager : MonoBehaviour
         _currentLevelIndex = index;
         _flights = CurrentLevel.Flights.ToList();
         _trips = CurrentLevel.Trips.ToList();
+
+        _flightList.AddFlights(_flights);
     }
 
     private void CheckForNewPassengers(int time)
@@ -49,7 +53,7 @@ public class GameManager : MonoBehaviour
         List<TripData> toDelete = new();
         foreach (TripData tripData in _trips)
         {
-            if (TimeData.TimeToMinutes(tripData.ArriveAtTime) <= time)
+            if (TimeData.TimeToMinutes(tripData.StartTime) <= time)
             {
                 PassengerData passenger = _passengers[tripData.PassengerData.Index];
                 Debug.Log($"{passenger.Name} Needs a flight from {tripData.Start} to {tripData.Destination}");
