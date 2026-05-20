@@ -5,8 +5,8 @@ public class FlightData : ScriptableObject
 {
     public int ID;
 
-    public Airport DepartureCity;
-    public Airport ArrivalCity;
+    public AirportName DepartureCity;
+    public AirportName ArrivalCity;
 
     public TimeData DepartureTime;
     public TimeData ArrivalTime;

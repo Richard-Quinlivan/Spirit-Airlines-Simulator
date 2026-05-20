@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: TestFlightData
   m_EditorClassIdentifier: Assembly-CSharp::FlightData
   ID: 0
-  Start: 0
-  Destination: 3
-  StartArriveTime:
-    Hours: 8
-    Minutes: 15
-  DestinationArriveTime:
+  DepartureCity: 0
+  ArrivalCity: 3
+  DepartureTime:
     Hours: 10
     Minutes: 0
+  ArrivalTime:
+    Hours: 1
+    Minutes: 15
   Seats: 00000000
   SpeedMultiplier: 1

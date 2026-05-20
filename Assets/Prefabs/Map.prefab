@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3352219719532888928}
   - component: {fileID: 1344815239268130744}
   - component: {fileID: 4921159387549854153}
+  - component: {fileID: 7125690803859545843}
   m_Layer: 5
   m_Name: CHI/ORD
   m_TagString: Untagged
@@ -75,6 +76,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7125690803859545843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480889216636600874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee84a56fe5963ce448fc7199c4f3539a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Airport
+  _airportName: 5
 --- !u!1 &484319547437541918
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,6 +172,7 @@ GameObject:
   - component: {fileID: 445334679236285213}
   - component: {fileID: 1638125824445912153}
   - component: {fileID: 6920749888960435260}
+  - component: {fileID: 7956665439586563578}
   m_Layer: 5
   m_Name: DET
   m_TagString: Untagged
@@ -222,6 +237,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7956665439586563578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523100227130009796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee84a56fe5963ce448fc7199c4f3539a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Airport
+  _airportName: 4
 --- !u!1 &1949251737814720681
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,6 +261,7 @@ GameObject:
   - component: {fileID: 2730615487144398}
   - component: {fileID: 310468034623536640}
   - component: {fileID: 1767246836354443309}
+  - component: {fileID: 637318872098087128}
   m_Layer: 5
   m_Name: SEA
   m_TagString: Untagged
@@ -297,6 +326,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &637318872098087128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949251737814720681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee84a56fe5963ce448fc7199c4f3539a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Airport
+  _airportName: 10
 --- !u!1 &2012513708107540109
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +350,7 @@ GameObject:
   - component: {fileID: 2980705729211144855}
   - component: {fileID: 979390774278475593}
   - component: {fileID: 1797299011524667078}
+  - component: {fileID: 7982694616506536683}
   m_Layer: 5
   m_Name: DEN
   m_TagString: Untagged
@@ -372,6 +415,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7982694616506536683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012513708107540109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee84a56fe5963ce448fc7199c4f3539a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Airport
+  _airportName: 8
 --- !u!1 &2026261596797458676
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,6 +439,7 @@ GameObject:
   - component: {fileID: 2040876938364210078}
   - component: {fileID: 4925323754813310171}
   - component: {fileID: 8197446789399726}
+  - component: {fileID: 5463689580556258444}
   m_Layer: 5
   m_Name: ATL
   m_TagString: Untagged
@@ -447,6 +504,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5463689580556258444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026261596797458676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee84a56fe5963ce448fc7199c4f3539a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Airport
+  _airportName: 3
 --- !u!1 &2370792054300647692
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,6 +565,7 @@ GameObject:
   - component: {fileID: 2649176345240354579}
   - component: {fileID: 3767789441319151173}
   - component: {fileID: 8983670110589502335}
+  - component: {fileID: 9109527622600231618}
   m_Layer: 5
   m_Name: BIS
   m_TagString: Untagged
@@ -559,6 +630,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &9109527622600231618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3454488999680741620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee84a56fe5963ce448fc7199c4f3539a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Airport
+  _airportName: 7
 --- !u!1 &4307604221994384069
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,6 +654,7 @@ GameObject:
   - component: {fileID: 3984875095836297758}
   - component: {fileID: 8585880750577587646}
   - component: {fileID: 2408994655387309737}
+  - component: {fileID: 7492656876410336044}
   m_Layer: 5
   m_Name: NY/LGA
   m_TagString: Untagged
@@ -634,6 +719,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7492656876410336044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4307604221994384069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee84a56fe5963ce448fc7199c4f3539a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Airport
+  _airportName: 0
 --- !u!1 &5542624717280033208
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,6 +743,7 @@ GameObject:
   - component: {fileID: 8540680541413420637}
   - component: {fileID: 2714076521359745091}
   - component: {fileID: 2745252262826488251}
+  - component: {fileID: 5493465547732160877}
   m_Layer: 5
   m_Name: DCA
   m_TagString: Untagged
@@ -709,6 +808,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5493465547732160877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5542624717280033208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee84a56fe5963ce448fc7199c4f3539a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Airport
+  _airportName: 1
 --- !u!1 &5900441851269483336
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,16 +852,16 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3984875095836297758}
+  - {fileID: 8540680541413420637}
+  - {fileID: 2516264718059937656}
   - {fileID: 2040876938364210078}
+  - {fileID: 445334679236285213}
+  - {fileID: 3352219719532888928}
+  - {fileID: 8662821805120693268}
+  - {fileID: 2649176345240354579}
+  - {fileID: 2980705729211144855}
   - {fileID: 4499271695764073296}
   - {fileID: 2730615487144398}
-  - {fileID: 2980705729211144855}
-  - {fileID: 445334679236285213}
-  - {fileID: 2516264718059937656}
-  - {fileID: 8662821805120693268}
-  - {fileID: 8540680541413420637}
-  - {fileID: 3352219719532888928}
-  - {fileID: 2649176345240354579}
   m_Father: {fileID: 6280459566969061406}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -806,6 +918,7 @@ GameObject:
   - component: {fileID: 4499271695764073296}
   - component: {fileID: 4564333087566016319}
   - component: {fileID: 1899123047835473001}
+  - component: {fileID: 8742728422187581240}
   m_Layer: 5
   m_Name: LAX
   m_TagString: Untagged
@@ -870,6 +983,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8742728422187581240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6458296209382124508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee84a56fe5963ce448fc7199c4f3539a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Airport
+  _airportName: 9
 --- !u!1 &8266246134788096080
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,6 +1007,7 @@ GameObject:
   - component: {fileID: 8662821805120693268}
   - component: {fileID: 8078129283977033371}
   - component: {fileID: 689449253246105043}
+  - component: {fileID: 5147468738675938937}
   m_Layer: 5
   m_Name: DFW
   m_TagString: Untagged
@@ -945,6 +1072,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5147468738675938937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8266246134788096080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee84a56fe5963ce448fc7199c4f3539a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Airport
+  _airportName: 6
 --- !u!1 &8648003697511930452
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,6 +1233,7 @@ GameObject:
   - component: {fileID: 2516264718059937656}
   - component: {fileID: 4873328905663124498}
   - component: {fileID: 2967616452444518770}
+  - component: {fileID: 908504987351171018}
   m_Layer: 5
   m_Name: MIA
   m_TagString: Untagged
@@ -1157,3 +1298,16 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &908504987351171018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9109275704927824565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee84a56fe5963ce448fc7199c4f3539a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Airport
+  _airportName: 2

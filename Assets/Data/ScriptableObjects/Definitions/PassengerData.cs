@@ -5,5 +5,5 @@ public class PassengerData : ScriptableObject
 {
     public string Name;
     public string Descriptor;
-    public int Index;
+    public int ID;
 }

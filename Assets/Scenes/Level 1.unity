@@ -419,8 +419,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   Levels:
   - {fileID: 11400000, guid: 22c281d66c68a3e4ebeab8e449235990, type: 2}
-  _passengers:
-  - {fileID: 11400000, guid: 40497bad4b6458b4dad2ed7aea3cc55a, type: 2}
 --- !u!4 &1287848580
 Transform:
   m_ObjectHideFlags: 0
@@ -730,7 +728,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1919580699517561882, guid: a4764436dbd352245989fd1db98face3, type: 3}
       propertyPath: m_Name
-      value: PassengerList
+      value: TripList
       objectReference: {fileID: 0}
     - target: {fileID: 6672832206274914855, guid: a4764436dbd352245989fd1db98face3, type: 3}
       propertyPath: m_Pivot.x
@@ -758,7 +756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6672832206274914855, guid: a4764436dbd352245989fd1db98face3, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 400
+      value: 450
       objectReference: {fileID: 0}
     - target: {fileID: 6672832206274914855, guid: a4764436dbd352245989fd1db98face3, type: 3}
       propertyPath: m_SizeDelta.y
@@ -935,6 +933,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3245231243442403490, guid: 2ccc975b72a2ee5458e8afcd8f15527e, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395255183025206843, guid: 2ccc975b72a2ee5458e8afcd8f15527e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395255183025206843, guid: 2ccc975b72a2ee5458e8afcd8f15527e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395255183025206843, guid: 2ccc975b72a2ee5458e8afcd8f15527e, type: 3}
+      propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

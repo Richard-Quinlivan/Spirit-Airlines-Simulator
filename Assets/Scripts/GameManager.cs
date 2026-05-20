@@ -7,11 +7,8 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private LevelData[] Levels;
 
-    [SerializeField]
-    private PassengerData[] _passengers;
-
     private GameClock _clock;
-    private PassengerList _passengerList;
+    private TripList _tripList;
     private FlightList _flightList;
 
     public LevelData CurrentLevel => Levels[_currentLevelIndex];
@@ -24,7 +21,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         _clock = FindAnyObjectByType<GameClock>();
-        _passengerList = FindAnyObjectByType<PassengerList>();
+        _tripList = FindAnyObjectByType<TripList>();
         _flightList = FindAnyObjectByType<FlightList>();
 
         _clock.OnTimeUpdated += CheckForNewPassengers;
@@ -55,9 +52,9 @@ public class GameManager : MonoBehaviour
         {
             if (TimeData.TimeToMinutes(tripData.StartTime) <= time)
             {
-                PassengerData passenger = _passengers[tripData.PassengerData.Index];
+                PassengerData passenger = tripData.PassengerData;
                 Debug.Log($"{passenger.Name} Needs a flight from {tripData.Start} to {tripData.Destination}");
-                _passengerList.AddPassenger(passenger);
+                _tripList.AddTrip(tripData);
                 toDelete.Add(tripData);
             }
         }
