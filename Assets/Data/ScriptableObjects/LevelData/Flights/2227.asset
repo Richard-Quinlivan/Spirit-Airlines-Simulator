@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2a78f70f13920d40bce9ec68b6e8703, type: 3}
   m_Name: 2227
   m_EditorClassIdentifier: Assembly-CSharp::FlightData
-  ID: 0
-  DepartureCity: 0
-  ArrivalCity: 0
+  ID: 2227
+  DepartureCity: 4
+  ArrivalCity: 1
   DepartureTime:
-    Hours: 0
-    Minutes: 0
+    Hours: 9
+    Minutes: 45
   ArrivalTime:
-    Hours: 0
-    Minutes: 0
-  Seats: 
+    Hours: 11
+    Minutes: 30
+  Seats: 0000000000000000000000000000000000000000
   SpeedMultiplier: 1
