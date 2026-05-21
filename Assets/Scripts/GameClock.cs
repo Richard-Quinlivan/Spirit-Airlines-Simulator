@@ -7,12 +7,11 @@ public class GameClock : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI _clockText;
 
-    [Tooltip("Amount of Game time in minutes that passes every second." +
-        "\ni.e. if set to 3, then 15 game minutes pass every 5 seconds")]
-    [SerializeField]
-    private int _timeRatio = 3;
+    //Amount of Game time in minutes that passes every second. i.e. if set to 3, then 15 game minutes pass every 5 seconds
+    private static readonly int _timeRatio = 3;
+    public static int TimeRatio => _timeRatio;
     //480 minutes is 8am
-    private readonly int _startingTime = 480;
+    private static readonly int _startingTime = 480;
 
     private int _realTime = 0;
     private int _currentTimeInMinutes;

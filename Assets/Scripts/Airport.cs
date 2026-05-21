@@ -5,6 +5,7 @@ public class Airport : MonoBehaviour
 {
     [SerializeField]
     private AirportName _airportName;
+    public AirportName AirportName => _airportName;
 
     public static Action<AirportName> OnHighlightAirport;
     public static Action<AirportName> OnUnHighlightAirport;
