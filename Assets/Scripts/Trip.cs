@@ -42,11 +42,13 @@ public class Trip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public void OnPointerEnter(PointerEventData eventData)
     {
         Airport.OnHighlightAirport?.Invoke(_data.Start);
+        Airport.OnHighlightAirport?.Invoke(_data.Destination);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         Airport.OnUnHighlightAirport?.Invoke(_data.Start);
+        Airport.OnUnHighlightAirport?.Invoke(_data.Destination);
     }
 
     private void OnDestroy()

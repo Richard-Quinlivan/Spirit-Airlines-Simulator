@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
   Flights:
   - {fileID: 11400000, guid: 47659ff8f895d8440819d7d58385eb89, type: 2}
+  - {fileID: 11400000, guid: 47659ff8f895d8440819d7d58385eb89, type: 2}
   Trips:
   - {fileID: 11400000, guid: ac5d4dbfdf14e2e4eae55c3a7b3e6224, type: 2}
