@@ -22,6 +22,8 @@ public class FlightList : MonoBehaviour
 
     public void AddFlights(List<FlightData> dataList)
     {
+        SortFlightDataByDepartureTime flightDataComparer = new();
+        dataList.Sort(flightDataComparer);
         foreach (FlightData data in dataList)
         {
             GameObject flightObj = GameObject.Instantiate(_flightPrefab, _content);

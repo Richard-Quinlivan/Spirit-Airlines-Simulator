@@ -39,6 +39,14 @@ public class Trip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         _clock.OnTimeUpdated += UpdateTimeWasted;
     }
 
+    private void OnDestroy()
+    {
+        if (_clock != null)
+        {
+            _clock.OnTimeUpdated -= UpdateTimeWasted;
+        }
+    }
+
     public void OnPointerEnter(PointerEventData eventData)
     {
         Airport.OnHighlightAirport?.Invoke(_data.Start);
@@ -49,14 +57,6 @@ public class Trip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         Airport.OnUnHighlightAirport?.Invoke(_data.Start);
         Airport.OnUnHighlightAirport?.Invoke(_data.Destination);
-    }
-
-    private void OnDestroy()
-    {
-        if (_clock != null)
-        {
-            _clock.OnTimeUpdated -= UpdateTimeWasted;
-        }
     }
 
     private void UpdateTimeWasted(int _)

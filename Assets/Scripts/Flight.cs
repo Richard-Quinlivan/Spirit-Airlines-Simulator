@@ -1,7 +1,8 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class Flight : MonoBehaviour
+public class Flight : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField]
     private TextMeshProUGUI _departureCity;
@@ -15,9 +16,14 @@ public class Flight : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI _arrivalTime;
 
+    [SerializeField]
+    private TextMeshProUGUI _availableSeats;
+
     private FlightData _data;
     private GameClock _clock;
     private PlanePool _planePool;
+    private Plane _plane;
+    private bool _isHovered = false;
 
     private int _departTimeInMinutes;
     private Airport _startingAirport;
@@ -49,13 +55,38 @@ public class Flight : MonoBehaviour
         }
     }
 
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        _isHovered = true;
+        Airport.OnHighlightAirport?.Invoke(_data.DepartureCity);
+        Airport.OnHighlightAirport?.Invoke(_data.ArrivalCity);
+        if (_plane)
+        {
+            _plane.HighlightPlane();
+        }
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        _isHovered = false;
+        Airport.OnUnHighlightAirport?.Invoke(_data.DepartureCity);
+        Airport.OnUnHighlightAirport?.Invoke(_data.ArrivalCity);
+        if (_plane)
+        {
+            _plane.UnHighlightPlane();
+        }
+    }
+
     private void CheckDepartureTime(int currTime)
     {
         if (currTime >= _departTimeInMinutes)
         {
-            Plane plane = _planePool.GetPlane();
-            plane.SetTrip(_startingAirport, _endingAirport, _data, _planePool.ReturnPlane);
-
+            _plane = _planePool.GetPlane();
+            _plane.SetTrip(_startingAirport, _endingAirport, _data, _planePool.ReturnPlane);
+            if (_isHovered)
+            {
+                _plane.HighlightPlane();
+            }
             _clock.OnTimeUpdated -= CheckDepartureTime;
         }
     }

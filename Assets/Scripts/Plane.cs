@@ -25,6 +25,21 @@ public class Plane : MonoBehaviour
         gameObject.SetActive(true);
     }
 
+    private void Update()
+    {
+        float progress = Mathf.Clamp01((Time.time - _flightStartTime) / _flightTimeInRealSeconds);
+        transform.position = Vector2.Lerp
+        (
+            _startingLocation.transform.position,
+            _endingLocation.transform.position,
+            progress
+        );
+        if (progress == 1)
+        {
+            EndFlight();
+        }
+    }
+
     private void SetRotaion()
     {
         Vector3 line = _startingLocation.transform.position - _endingLocation.transform.position;
@@ -45,18 +60,13 @@ public class Plane : MonoBehaviour
         _returnPlane.Invoke(this);
     }
 
-    private void Update()
+    public void HighlightPlane()
     {
-        float progress = Mathf.Clamp01((Time.time - _flightStartTime) / _flightTimeInRealSeconds);
-        transform.position = Vector2.Lerp
-        (
-            _startingLocation.transform.position,
-            _endingLocation.transform.position,
-            progress
-        );
-        if (progress == 1)
-        {
-            EndFlight();
-        }
+        transform.localScale *= 2;
+    }
+
+    public void UnHighlightPlane()
+    {
+        transform.localScale /= 2;
     }
 }
