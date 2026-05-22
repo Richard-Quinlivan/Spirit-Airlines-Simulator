@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using Unity.GraphToolkit.Editor;
 using UnityEngine;
 
 public class FlightList : MonoBehaviour
@@ -8,6 +10,9 @@ public class FlightList : MonoBehaviour
 
     [SerializeField]
     private Transform _content;
+
+    [SerializeField]
+    private List<Flight> _flights;
 
     private GameClock _clock;
     private PlanePool _planePool;
@@ -29,6 +34,27 @@ public class FlightList : MonoBehaviour
             GameObject flightObj = GameObject.Instantiate(_flightPrefab, _content);
             Flight flight = flightObj.GetComponent<Flight>();
             flight.Initialize(data, _clock, _planePool, _map);
+            _flights.Add(flight);
+        }
+    }
+
+    public void HighlightAvailableFlights(AirportName airport)
+    {
+        UnHighlightAll();
+        foreach (Flight flight in _flights)
+        {
+            if (flight.StartingAirport.AirportName == airport)
+            {
+                flight.Highlight(UnHighlightAll);
+            }
+        }
+    }
+
+    public void UnHighlightAll()
+    {
+        foreach (Flight flight in _flights)
+        {
+            flight.UnHighlight();
         }
     }
 }

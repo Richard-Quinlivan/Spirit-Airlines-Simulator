@@ -1030,6 +1030,8 @@ MonoBehaviour:
   _departureTime: {fileID: 4730633934780552737}
   _arrivalTime: {fileID: 3964419395971867688}
   _availableSeats: {fileID: 0}
+  _defualtColor: {r: 0.43529412, g: 0.43529412, b: 0.43529412, a: 1}
+  _highlightedColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
 --- !u!114 &2099880664499252481
 MonoBehaviour:
   m_ObjectHideFlags: 0

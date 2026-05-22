@@ -7,21 +7,20 @@ public class Plane : MonoBehaviour
 {
     private Airport _startingLocation;
     private Airport _endingLocation;
-    private FlightData _flightData;
     private float _flightStartTime;
     private int _flightTimeInRealSeconds;
     private Action<Plane> _returnPlane;
 
-    public void SetTrip(Airport startingLocation, Airport endingLocation, FlightData flightData, Action<Plane> returnPlane)
+    public void SetTrip(Airport startingLocation, Airport endingLocation, TimeData departureTime,
+        TimeData arrivalTime, Action<Plane> returnPlane)
     {
         _startingLocation = startingLocation;
         _endingLocation = endingLocation;
-        _flightData = flightData;
         _returnPlane = returnPlane;
-        int flightTimeInGame = TimeData.TimeToMinutes(flightData.ArrivalTime) - TimeData.TimeToMinutes(flightData.DepartureTime);
+        int flightTimeInGame = TimeData.TimeToMinutes(arrivalTime) - TimeData.TimeToMinutes(departureTime);
         _flightTimeInRealSeconds = flightTimeInGame / GameClock.TimeRatio;
         _flightStartTime = Time.time;
-        SetRotaion();
+        SetRotation();
         gameObject.SetActive(true);
     }
 
@@ -40,7 +39,7 @@ public class Plane : MonoBehaviour
         }
     }
 
-    private void SetRotaion()
+    private void SetRotation()
     {
         Vector3 line = _startingLocation.transform.position - _endingLocation.transform.position;
         Vector3 axis = Vector3.up;

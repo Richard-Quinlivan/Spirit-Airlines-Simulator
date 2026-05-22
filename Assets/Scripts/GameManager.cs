@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
             if (TimeData.TimeToMinutes(tripData.StartTime) <= time)
             {
                 PassengerData passenger = tripData.PassengerData;
-                Debug.Log($"{passenger.Name} Needs a flight from {tripData.Start} to {tripData.Destination}");
+                Debug.Log($"{passenger.Name} Needs a flight from {tripData.StartCity} to {tripData.DestinationCity}");
                 _tripList.AddTrip(tripData);
                 toDelete.Add(tripData);
             }
