@@ -20,13 +20,18 @@ public class Flight : MonoBehaviour
     private PlanePool _planePool;
 
     private int _departTimeInMinutes;
+    private Airport _startingAirport;
+    private Airport _endingAirport;
 
-    public void Initialize(FlightData data, GameClock clock, PlanePool planePool)
+    public void Initialize(FlightData data, GameClock clock, PlanePool planePool, Map map)
     {
         _data = data;
         _clock = clock;
         _planePool = planePool;
+
         _departTimeInMinutes = TimeData.TimeToMinutes(data.DepartureTime);
+        _startingAirport = map.GetAirport(data.DepartureCity);
+        _endingAirport = map.GetAirport(data.ArrivalCity);
 
         _departureCity.text = data.DepartureCity.ToString();
         _arrivalCity.text = data.ArrivalCity.ToString();
@@ -49,7 +54,7 @@ public class Flight : MonoBehaviour
         if (currTime >= _departTimeInMinutes)
         {
             Plane plane = _planePool.GetPlane();
-            //plane.SetTrip(, , _data);
+            plane.SetTrip(_startingAirport, _endingAirport, _data, _planePool.ReturnPlane);
 
             _clock.OnTimeUpdated -= CheckDepartureTime;
         }

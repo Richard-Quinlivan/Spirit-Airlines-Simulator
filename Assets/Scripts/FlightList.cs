@@ -11,11 +11,13 @@ public class FlightList : MonoBehaviour
 
     private GameClock _clock;
     private PlanePool _planePool;
+    private Map _map;
 
     private void Awake()
     {
         _clock = FindAnyObjectByType<GameClock>();
         _planePool = FindAnyObjectByType<PlanePool>();
+        _map = FindAnyObjectByType<Map>();
     }
 
     public void AddFlights(List<FlightData> dataList)
@@ -24,7 +26,7 @@ public class FlightList : MonoBehaviour
         {
             GameObject flightObj = GameObject.Instantiate(_flightPrefab, _content);
             Flight flight = flightObj.GetComponent<Flight>();
-            flight.Initialize(data, _clock, _planePool);
+            flight.Initialize(data, _clock, _planePool, _map);
         }
     }
 }

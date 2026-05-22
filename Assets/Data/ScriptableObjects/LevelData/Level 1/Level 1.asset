@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15809ff17e820a47941e99bea0223c7, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: Assembly-CSharp::LevelData
+  Flights:
+  - {fileID: 11400000, guid: f8ceed17c65eefa7db389103ac4c48a5, type: 2}
+  - {fileID: 11400000, guid: 842a9982cdace99bf8a715ae1fdb212b, type: 2}
+  - {fileID: 11400000, guid: 2166523080bd789b79bec06c56243108, type: 2}
+  - {fileID: 11400000, guid: 454a010231ccf599588bffda6ae0c0da, type: 2}
+  - {fileID: 11400000, guid: a1eb32f55fb1b38c99709fc969331b5e, type: 2}
+  - {fileID: 11400000, guid: b072e1a426a579b12be33063b2687f05, type: 2}
+  - {fileID: 11400000, guid: 36d537f9102990aab874adfe1eeb6ecf, type: 2}
+  - {fileID: 11400000, guid: 0a77f1a4f4f63df30a98075efb595b7d, type: 2}
+  - {fileID: 11400000, guid: 0a77f1a4f4f63df30a98075efb595b7d, type: 2}
+  - {fileID: 11400000, guid: eb7c71004940fa848aec8c4d9d7a559d, type: 2}
+  - {fileID: 11400000, guid: 0ef888b1b9efce14f8fb5c80653ad0d4, type: 2}
+  - {fileID: 11400000, guid: 035feaea4e1231748a4df62f83ac4e96, type: 2}
+  Trips:
+  - {fileID: 11400000, guid: 4d6ce0eebec1c986eb2c5a9212d5d3c6, type: 2}
+  - {fileID: 11400000, guid: 79ac0702555102e5689f45354b4c60cc, type: 2}
+  - {fileID: 11400000, guid: 7ff2705707554aa2c91edabcb98e1a43, type: 2}
+  - {fileID: 11400000, guid: 3a6db5719bc684680bd7a025b2ec2499, type: 2}
+  - {fileID: 11400000, guid: a5b0bb74e08dd30948bcf4dcc5936820, type: 2}
