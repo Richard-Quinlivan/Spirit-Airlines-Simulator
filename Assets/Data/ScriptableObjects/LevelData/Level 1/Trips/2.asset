@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b9627c5fdb1d2e488b4d69d512bb62c, type: 3}
   m_Name: 2
   m_EditorClassIdentifier: Assembly-CSharp::TripData
-  Start: 4
-  Destination: 2
+  StartCity: 1
+  DestinationCity: 2
   StartTime:
     Hours: 8
     Minutes: 0

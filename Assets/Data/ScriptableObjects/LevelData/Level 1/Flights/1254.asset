@@ -21,5 +21,5 @@ MonoBehaviour:
   ArrivalTime:
     Hours: 11
     Minutes: 30
-  Seats: 0000000000000000
+  Seats: ffffffffffffffff
   SpeedMultiplier: 1

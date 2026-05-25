@@ -23,6 +23,7 @@ public class GameClock : MonoBehaviour
     {
         _clockText.text = "8:00 AM";
         _realTime = (int)Time.time;
+        UpdateClock();
     }
 
     private void Update()
@@ -30,12 +31,17 @@ public class GameClock : MonoBehaviour
         //only update the clock every 5 seconds
         if (Time.time - _realTime >= 5f)
         {
-            _realTime = (int)Time.time;
-            _currentTimeInMinutes = (_realTime * _timeRatio) + _startingTime;
-
-            _clockText.text = ConvertRealTimeToGameTime();
-            OnTimeUpdated?.Invoke(_currentTimeInMinutes);
+            UpdateClock();
         }
+    }
+
+    private void UpdateClock()
+    {
+        _realTime = (int)Time.time;
+        _currentTimeInMinutes = (_realTime * _timeRatio) + _startingTime;
+
+        _clockText.text = ConvertRealTimeToGameTime();
+        OnTimeUpdated?.Invoke(_currentTimeInMinutes);
     }
 
 

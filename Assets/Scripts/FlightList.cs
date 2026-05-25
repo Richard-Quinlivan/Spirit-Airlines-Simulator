@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using Unity.GraphToolkit.Editor;
 using UnityEngine;
 
 public class FlightList : MonoBehaviour
@@ -23,6 +21,12 @@ public class FlightList : MonoBehaviour
         _clock = FindAnyObjectByType<GameClock>();
         _planePool = FindAnyObjectByType<PlanePool>();
         _map = FindAnyObjectByType<Map>();
+        Trip.OnTripSelected += StartSelectionProcess;
+    }
+
+    private void OnDestroy()
+    {
+        Trip.OnTripSelected -= StartSelectionProcess;        
     }
 
     public void AddFlights(List<FlightData> dataList)
@@ -38,14 +42,14 @@ public class FlightList : MonoBehaviour
         }
     }
 
-    public void HighlightAvailableFlights(AirportName airport)
+    private void StartSelectionProcess(Trip trip)
     {
         UnHighlightAll();
         foreach (Flight flight in _flights)
         {
-            if (flight.StartingAirport.AirportName == airport)
+            if (flight.IsAvailable(trip.CurrentAirport))
             {
-                flight.Highlight(UnHighlightAll);
+                flight.Activate(trip.Passenger, UnHighlightAll);
             }
         }
     }
@@ -54,7 +58,7 @@ public class FlightList : MonoBehaviour
     {
         foreach (Flight flight in _flights)
         {
-            flight.UnHighlight();
+            flight.Deactivate();
         }
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -23,17 +24,19 @@ public class Flight : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
     private TextMeshProUGUI _availableSeats;
 
     [SerializeField]
-    private Color _defualtColor;
+    private Color _defaultColor;
 
     [SerializeField]
     private Color _highlightedColor;
 
     private Image _background;
 
+    private FlightData _flightData;
     private GameClock _clock;
     private PlanePool _planePool;
     private Plane _plane;
     private bool _isHovered = false;
+    private bool _isActive = false;
 
     private int _departTimeInMinutes;
     private Airport _startingAirport;
@@ -41,7 +44,8 @@ public class Flight : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
     private TimeData _departureTimeData;
     private TimeData _arivalTimeData;
 
-    public Airport StartingAirport => _startingAirport;
+    private PassengerData _potentialPassenger = null;
+
     public Airport EndingAirport => _endingAirport;
 
     private Action _unHighlightAll;
@@ -53,6 +57,7 @@ public class Flight : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
 
     public void Initialize(FlightData data, GameClock clock, PlanePool planePool, Map map)
     {
+        _flightData = data;
         _clock = clock;
         _planePool = planePool;
 
@@ -67,6 +72,7 @@ public class Flight : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
 
         _departureTime.text = data.DepartureTime.Get12HourString();
         _arrivalTime.text = data.ArrivalTime.Get12HourString();
+        UpdateAvailableSeats();
         _clock.OnTimeUpdated += CheckDepartureTime;
     }
 
@@ -102,18 +108,70 @@ public class Flight : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        _unHighlightAll?.Invoke();
+        if (_isActive)
+        {
+            AssignPassenger();
+
+            _unHighlightAll?.Invoke();
+        }
     }
 
-    public void Highlight(Action unHighlightAll)
+    private void UpdateAvailableSeats()
     {
-        _background.color = _highlightedColor;
+        int availableSeats = 0;
+        foreach (int  seat in _flightData.Seats)
+        {
+            if (seat == -1)
+            {
+                availableSeats++;
+            }
+        }
+
+        _availableSeats.text = $"Available Seats: {availableSeats}";
+    }
+
+    public bool IsAvailable(AirportName airportName)
+    {
+        if (_startingAirport.AirportName == airportName)
+        {
+            foreach (int seat in _flightData.Seats)
+            {
+                if (seat == -1)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    private void AssignPassenger()
+    {
+        for(int i = 0; i < _flightData.Seats.Length; i++)
+        {
+            if (_flightData.Seats[i] == -1)
+            {
+                _flightData.Seats[i] = _potentialPassenger.ID;
+                break;
+            }
+        }
+        UpdateAvailableSeats();
+    }
+
+    public void Activate(PassengerData passenger, Action unHighlightAll)
+    {
         _unHighlightAll = unHighlightAll;
+        _isActive = true;
+        _background.color = _highlightedColor;
+        _potentialPassenger = passenger;
     }
 
-    public void UnHighlight()
+
+    public void Deactivate()
     {
-        _background.color = _defualtColor;
+        _background.color = _defaultColor;
+        
+        _isActive = false;
     }
 
     private void CheckDepartureTime(int currTime)

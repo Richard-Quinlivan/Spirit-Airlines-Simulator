@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -21,18 +22,23 @@ public class Trip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     private TextMeshProUGUI _timeWasted;
 
     private TimeData _timeWastedData;
+    private TripData _tripData;
     private GameClock _clock;
-    private FlightList _flightList;
 
     private AirportName _currentAirport;
     private AirportName _destinationAirport;
 
+    public AirportName CurrentAirport => _currentAirport;
+    public PassengerData Passenger => _tripData.PassengerData;
+
     private bool _isSelected = false;
 
-    public void Initialize(TripData data, GameClock clock, FlightList flightList)
+    public static Action<Trip> OnTripSelected;
+
+    public void Initialize(TripData data, GameClock clock)
     {
+        _tripData = data;
         _clock = clock;
-        _flightList = flightList;
         //_profilePicture = ;
         _passengerName.text = data.PassengerData.Name;
         _currentCity.text = data.StartCity.ToString();
@@ -77,7 +83,7 @@ public class Trip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
         {
             _isSelected = true;
 
-            _flightList.HighlightAvailableFlights(_currentAirport);
+            OnTripSelected?.Invoke(this);
         }
     }
 
